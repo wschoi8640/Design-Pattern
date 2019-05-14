@@ -27,7 +27,14 @@ public class IronMan extends Robot
 * 기능을 캡슐화 해 미리 구현
 
 ```java
-
+public class FlyingStrategy implements MovingStrategy
+{
+		@Override
+		public void move() 
+		{
+				System.out.println("Fly");
+		}
+}
 ```
 
 * 무엇이 변화되는지 찾아서 변화되는 것을 클래스로 캡슐화 해야한다.
