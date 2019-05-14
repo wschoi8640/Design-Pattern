@@ -27,6 +27,14 @@ public class IronMan extends Robot
 * 기능을 캡슐화 해 미리 구현
 
 ```java
+public interface MovingStrategy 
+{
+		public void move();
+}
+
+```
+
+```java
 public class FlyingStrategy implements MovingStrategy
 {
 		@Override
