@@ -25,7 +25,7 @@ public class IronMan extends Robot
 
 * ironMan_after.java
 
-```
+```java
 public class IronMan extends Robot
 {
 		public IronMan(String name) 
