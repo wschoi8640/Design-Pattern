@@ -1,4 +1,52 @@
 # Strategy02 의 문제점
+* ironMan_before.java
+
+```java
+public class IronMan extends Robot
+{
+		public IronMan(String name) 
+		{
+				super(name);
+		}
+	
+		@Override
+		public void attack() 
+		{
+				System.out.println("Launch missile");
+		}
+	
+		@Override
+		public void move() 
+		{
+				System.out.println("Swim");
+		}
+}
+```
+
+* ironMan_after.java
+
+```
+public class IronMan extends Robot
+{
+		public IronMan(String name) 
+		{
+				super(name);
+		}
+	
+		@Override
+		public void attack() 
+		{
+				System.out.println("Launch missile");
+		}
+	
+		@Override
+		public void move() 
+		{
+				System.out.println("Fly");
+		}
+}
+
+```
 
 * 직접 소스를 변경하는 것은 OCP원칙에 위배된다.
 
