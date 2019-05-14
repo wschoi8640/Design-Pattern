@@ -1,4 +1,4 @@
-package strategy01;
+package strategy02;
 
 public class Atom extends Robot 
 {
@@ -16,7 +16,8 @@ public class Atom extends Robot
 		@Override
 		public void move() 
 		{
-				System.out.println("Run");
+				System.out.println("Walk");
 		}
 
 }
+

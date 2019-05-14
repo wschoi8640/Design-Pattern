@@ -1,4 +1,4 @@
-package strategy01;
+package strategy02;
 
 public class IronMan extends Robot
 {
@@ -16,6 +16,6 @@ public class IronMan extends Robot
 		@Override
 		public void move() 
 		{
-				System.out.println("Swim");
+				System.out.println("Fly");
 		}
 }
