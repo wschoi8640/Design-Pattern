@@ -1,5 +1,7 @@
 # Strategy01 의 문제점
 
+* robot.java
+
 ```java
 public abstract class Robot 
 {
@@ -18,6 +20,8 @@ public abstract class Robot
 		public abstract void move();
 }
 ```
+* ironMan.java
+
 ```java
 public class IronMan extends Robot
 {
