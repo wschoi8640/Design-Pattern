@@ -13,3 +13,21 @@
   [[version 2] 각 클래스에 구현된 개별 기능 수정](https://github.com/wschoi8640/Design-Pattern/tree/master/src/strategy02)
 
   [[version final] 변경될 기능 단위로 미리 캡슐화](https://github.com/wschoi8640/Design-Pattern/tree/master/src/strategy03)
+
+### 싱글톤 패턴 (Singleton Pattern)
+
+  [[version 1] new 생성자를 통한 인스턴스 생성](https://github.com/wschoi8640/Design-Pattern/tree/master/src/singleton01)
+  
+  [[version 2] private 생성자로 인스턴스 생성 방지](https://github.com/wschoi8640/Design-Pattern/tree/master/src/singleton02)
+  
+  [[version 3] getter를 통한 인스턴스 조건부 생성](https://github.com/wschoi8640/Design-Pattern/blob/master/src/singleton03)
+  
+  [[version 4] version 3를 이용해 printer 출력](https://github.com/wschoi8640/Design-Pattern/tree/master/src/singleton04)
+  
+  [[version 5] 다중 스레드에서 인스턴스 다중 생성](https://github.com/wschoi8640/Design-Pattern/blob/master/src/singleton05)
+  
+  [[version final 1] 정적 변수에서 인스턴스 초기화](https://github.com/wschoi8640/Design-Pattern/tree/master/src/singleton06)
+  
+  [[version final 2] 동기화를 통한 메소드, 자원 공유](https://github.com/wschoi8640/Design-Pattern/tree/master/src/singleton07)
+  
+  [[version final 3] 정적 메소드, 클래스로 인스턴스 없이 클래스 사용](https://github.com/wschoi8640/Design-Pattern/tree/master/src/singleton08)
