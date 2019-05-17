@@ -31,3 +31,9 @@
   [[version final 2] 동기화를 통한 메소드, 자원 공유](https://github.com/wschoi8640/Design-Pattern/tree/master/src/singleton07)
   
   [[version final 3] 정적 메소드, 클래스로 인스턴스 없이 클래스 사용](https://github.com/wschoi8640/Design-Pattern/tree/master/src/singleton08)
+
+### 스테이트 패턴 (State Pattern)
+
+  [[version 1] 조건문을 통한 state 행위 결정](https://github.com/wschoi8640/Design-Pattern/tree/master/src/state01)
+  
+  [[version final] 구현한 state 클래스에서 각각 행위 결정](https://github.com/wschoi8640/Design-Pattern/tree/master/src/state02)
