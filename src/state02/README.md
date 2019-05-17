@@ -64,7 +64,7 @@ public class MiddleButton implements Button
 		public void turnOn(Light light) 
 		{
 				System.out.println("형광등 켜기");
-				light.setState(OnButton.getInstance());
+				light.setState(OnButton.getInstance()); // 매번 new 로 생성하는 것 보다 싱글톤을 쓰는게 효율적
 		}
 	
 		@Override
