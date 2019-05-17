@@ -1,4 +1,4 @@
-# Singleton06 의 문제점
+# Singleton05 의 문제점
 
 ```java
 public class Printer 

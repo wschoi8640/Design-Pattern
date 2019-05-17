@@ -1,4 +1,4 @@
-#Singleton3 의 문제점
+# Singleton3 의 문제점
 
 ```java
 public class Printer 
