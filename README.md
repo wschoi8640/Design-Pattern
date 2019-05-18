@@ -6,6 +6,8 @@
 
 * 매일 하나의 패턴을 공부하는 것이 목표입니다.
 
+---
+
 ### 스트래티지 패턴 (Strategy Pattern)
 
   [[version 1] 각 클래스에서 개별 기능 구현](https://github.com/wschoi8640/Design-Pattern/tree/master/src/strategy01)
@@ -13,6 +15,8 @@
   [[version 2] 각 클래스에 구현된 개별 기능 수정](https://github.com/wschoi8640/Design-Pattern/tree/master/src/strategy02)
 
   [[version final] 변경될 기능 단위로 미리 캡슐화](https://github.com/wschoi8640/Design-Pattern/tree/master/src/strategy03)
+
+---
 
 ### 싱글톤 패턴 (Singleton Pattern)
 
@@ -32,8 +36,20 @@
   
   [[version final 3] 정적 메소드, 클래스로 인스턴스 없이 클래스 사용](https://github.com/wschoi8640/Design-Pattern/tree/master/src/singleton08)
 
+---
+
 ### 스테이트 패턴 (State Pattern)
 
   [[version 1] 조건문을 통한 state 행위 결정](https://github.com/wschoi8640/Design-Pattern/tree/master/src/state01)
   
   [[version final] 구현한 state 클래스에서 각각 행위 결정](https://github.com/wschoi8640/Design-Pattern/tree/master/src/state02)
+
+---
+
+### 커맨드 패턴 (Command Pattern)
+
+  [[version 1] 정적인 기능 수행](https://github.com/wschoi8640/Design-Pattern/tree/master/src/command01)
+  
+  [[version 2] 조건화를 통한 기능 수행](https://github.com/wschoi8640/Design-Pattern/tree/master/src/command02)
+  
+  [[version final] 기능의 캡슐화를 통한 기능 수행](https://github.com/wschoi8640/Design-Pattern/tree/master/src/command03)
