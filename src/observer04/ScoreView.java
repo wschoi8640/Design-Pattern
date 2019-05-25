@@ -1,8 +1,8 @@
-package observer01;
+package observer04;
 
 import java.util.List;
 
-public class ScoreView
+public class ScoreView implements Observer
 {
 	private ScoreRecord scoreRecord;
 	private int viewCount;
