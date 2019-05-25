@@ -55,3 +55,13 @@
   [[version final] 기능의 캡슐화를 통한 기능 수행](https://github.com/wschoi8640/Design-Pattern/tree/master/src/command03)
 
 ---
+
+### 옵저버 패턴 (Observer Pattern)
+
+  [[version 1] 지정된 클래스를 업데이트](https://github.com/wschoi8640/Design-Pattern/tree/master/src/observer01)
+  
+  [[version 2] 업데이트 할 대상을 직접 변경](https://github.com/wschoi8640/Design-Pattern/tree/master/src/observer02)
+  
+  [[version 3] 출력 방식별로 각각 업데이트](https://github.com/wschoi8640/Design-Pattern/tree/master/src/observer03)
+  
+  [[version final] 추상화, 캡슐화를 통해 업데이트 일원화](https://github.com/wschoi8640/Design-Pattern/tree/master/src/observer04)
