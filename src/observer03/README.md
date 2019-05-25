@@ -1,30 +1,37 @@
 # observer03 의 문제점
 
 ```java
-public class Main
+public class ScoreRecord
 {
-	public static void main(String[] args)
+	private List<Integer> scores = new ArrayList<Integer>();
+	
+	private List<ScoreView> scoreViews = new ArrayList<ScoreView>();
+	private ScoreMinMaxView scoreMinMaxView;
+	
+	public void addScoreView(ScoreView scoreView)
 	{
-		ScoreRecord scoreRecord = new ScoreRecord();
+		scoreViews.add(scoreView);
+	}
+	
+	public void setScoreMinMaxView(ScoreMinMaxView scoreMinMaxView) 
+	{
+		this.scoreMinMaxView = scoreMinMaxView;
+	};
+	
+	public void addScoreAndView(int score)
+	{
+		scores.add(score);
 		
-		// 3칸씩 보여주는 ScoreView 생성
-		ScoreView scoreView03 = new ScoreView(scoreRecord, 3);
-		
-		// 5칸씩 보여주는 ScoreView 생성
-		ScoreView scoreView05 = new ScoreView(scoreRecord, 5);
-		ScoreMinMaxView scoreMinMaxView = new ScoreMinMaxView(scoreRecord);
-
-		// 리스트에 각 ScoreView 객체 추가
-		scoreRecord.addScoreView(scoreView03);
-		scoreRecord.addScoreView(scoreView05);
-		scoreRecord.setScoreMinMaxView(scoreMinMaxView);
-		
-		for(int i = 1; i <= 5; i++)
+		for(ScoreView scoreView : scoreViews)
 		{
-			int score = i * 10;
-			System.out.println("adding " + score);
-			scoreRecord.addScoreAndView(score);
+			scoreView.update();
 		}
+		scoreMinMaxView.update();
+	}
+	
+	public List<Integer> getScores()
+	{
+		return scores;
 	}
 }
 ```
