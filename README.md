@@ -65,3 +65,11 @@
   [[version 3] 출력 방식별로 각각 업데이트](https://github.com/wschoi8640/Design-Pattern/tree/master/src/observer03)
   
   [[version final] 추상화, 캡슐화를 통해 업데이트 일원화](https://github.com/wschoi8640/Design-Pattern/tree/master/src/observer04)
+  
+---
+
+### 데코레이터 패턴 (Decorator Pattern)
+
+  [[version 1] 공통 기능을 상속하는 클래스](https://github.com/wschoi8640/Design-Pattern/tree/master/src/decorator01)
+
+  [[version final] version 1을 상속하는 클래스로 객체 조합 만들기](https://github.com/wschoi8640/Design-Pattern/tree/master/src/decorator02)
