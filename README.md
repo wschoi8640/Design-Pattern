@@ -73,3 +73,13 @@
   [[version 1] 공통 기능을 상속하는 클래스](https://github.com/wschoi8640/Design-Pattern/tree/master/src/decorator01)
 
   [[version final] version 1을 상속하는 클래스로 객체 조합 만들기](https://github.com/wschoi8640/Design-Pattern/tree/master/src/decorator02)
+
+---
+
+### 템플릿메소드 패턴 (Template Method Pattern)
+
+  [[version 1] 기능을 직접 구현](https://github.com/wschoi8640/Design-Pattern/tree/master/src/templateMethod01)
+  
+  [[version 2] 추가 기능을 상위 클래스 상속을 통해 구현](https://github.com/wschoi8640/Design-Pattern/tree/master/src/templateMethod02)
+  
+  [[version final] 중복되는 메소드를 추상 메소드로 만들어 중복 최소화](https://github.com/wschoi8640/Design-Pattern/tree/master/src/templateMethod03)
